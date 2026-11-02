@@ -6,6 +6,10 @@ The official distribution repository for **Neural Runtime**, NEURAL's local LLM 
 
 [Official website](https://nipponai.github.io/) · [日本語](https://nipponai.github.io/ja/) · [Other NEURAL product](https://github.com/nipponai/neural-agent)
 
+## A new, independently developed inference engine
+
+Neural Runtime is a new inference-engine project with its own runtime core. It is developed primarily in **C++**, with **CUDA** for GPU execution. NEURAL develops model execution, GPU kernels, and memory management as its own inference system. Supported execution paths and dependencies will be specified with the released binary.
+
 ## Release status
 
 **In development. No official binary release is available yet.**
